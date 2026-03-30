@@ -37,7 +37,7 @@ const ordenPorCategoria=() =>{
 console.log("categorias= ",ordenPorCategoria());
 
 const buscarPorNombre = (nombreABuscar) => {
-    return listaProductos.find((p) => p.nombre === nombreABuscar);
+    return productos.find((p) => p.nombre === nombreABuscar);
 }
 
 // Ejemplo de uso:
